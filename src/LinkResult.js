@@ -45,11 +45,11 @@ const LinkResult = ({ inputValue }) => {
   }, [copied]);
 
   if (loading) {
-    return <p className="noData">Cargando...</p>;
+    return <p className="noData">Loading...</p>;
   }
 
   if (error) {
-    return <p className="noData">¡Algo salió mal! Por favor, inténtalo de nuevo más tarde.</p>;
+    return <p className="noData">Something went wrong =(</p>;
   }
 
   return (
