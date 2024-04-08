@@ -17,7 +17,7 @@ const LinkResult = ({ inputValue }) => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 27c62ff673f9e94d4f697d9dc48c8fddfa9e030e'
+          //[hidden]  'Authorization': 'Bearer 27c62ff673f9e94d4f697d9dc48c8fddfa9e030e'
           }
         }
       );
